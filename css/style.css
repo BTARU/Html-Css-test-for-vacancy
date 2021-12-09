@@ -88,12 +88,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .header {
   margin-bottom: 30px;
-  padding: 0 20px;
 }
 
 .header__content {
@@ -113,7 +112,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 0 10px;
+  margin: 0 -10px;
 }
 
 .blocks__item {
@@ -150,7 +149,7 @@ body {
 }
 
 .footer {
-  padding: 10px 20px 0 20px;
+  padding-top: 10px;
 }
 
 .footer__content {

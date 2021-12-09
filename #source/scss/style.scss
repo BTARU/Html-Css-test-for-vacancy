@@ -1,0 +1,70 @@
+@import "_nullstyle"; // Файл обнуляющих стилей
+
+body {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 30px;
+
+    &__content {
+        overflow: auto;
+        padding: 10px;
+        height: 100px;
+        background-color: rgb(67, 67, 211);
+        span {
+            font-size: 40px;
+        }
+    }
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+    &__item {
+        flex: 0 1 33.333%;
+        padding: 0 10px;
+        margin-bottom: 20px;
+        @media (max-width: 767.98px) {
+            flex: 0 1 50%;
+        }
+        @media (max-width: 319.98px) {
+            flex: 0 1 100%;
+        }
+
+        &_content {
+            padding: 10px;
+            font-size: 40px;
+            background-color: rgb(67, 67, 211);
+            height: 100px;
+            border: 1px solid #0000;
+        }
+    }
+}
+
+.footer {
+    padding-top: 10px;
+
+    &__content {
+        overflow: auto;
+        padding: 10px;
+        height: 100px;
+        background-color: rgb(67, 67, 211);
+        span {
+            font-size: 40px;
+        }
+    }
+}
+

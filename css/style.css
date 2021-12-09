@@ -89,7 +89,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px;
-  height: 100%;
 }
 
 .header {
